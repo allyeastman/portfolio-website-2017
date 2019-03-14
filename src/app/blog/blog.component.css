@@ -1,0 +1,22 @@
+.card:hover {
+    box-shadow: 0 10px 15px 0 rgba(30, 45, 62, .20), 0 0 50px 0 rgba(31, 44, 60, .15);
+    cursor: pointer;
+}
+
+.card .card-content p {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+h5 {
+    margin-top: 5px;
+}
+
+a.waves-effect.waves-light.btn-large.blogs {
+    background-color: #00bdf3;
+}
+
+p.blog-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

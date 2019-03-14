@@ -1,0 +1,8 @@
+.particles-wrapper {
+    position: absolute;
+    z-index: -99;
+}
+
+#particles-js {
+    position: absolute;
+}

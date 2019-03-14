@@ -1,0 +1,46 @@
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">         
+      <img src="../assets/img/FullLogo.png" class="brand-logo" />
+      <a href="#" materialize="sideNav" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a class="nav-text" href="#about-me">About</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#blog">Blog</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li>
+          <a class="nav-text" closeOnClick href="#about-me">About</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#blog">Blog</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <app-about-me id="about-me"></app-about-me>
+</div>
+<app-portfolio id="portfolio"></app-portfolio>
+<div class="container">
+  <app-blog id="blog"></app-blog>
+</div>
+<app-contact id="contact"></app-contact>

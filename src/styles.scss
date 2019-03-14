@@ -1,0 +1,106 @@
+@import '../src/assets/css/variables.scss';
+
+/*We call an important here because there are varying competiting properties called from Materialize */
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85% !important;
+  }
+}
+
+nav {
+  box-shadow: none !important;
+  margin-top: 20px;
+}
+
+.nav-text {
+  color: $grey-color;
+}
+
+.navbar-fixed {
+  margin-top: -20px;
+  padding-bottom: 100px;
+}
+
+img.brand-logo {
+  width: 140px;
+  margin-left: 120px;
+}
+
+.nav-wrapper {
+  background-color: $white-color;
+  padding-top: 10px;
+  padding-bottom: 75px;
+}
+
+ul.right.hide-on-med-and-down {
+  margin-right: 120px;
+}
+
+nav ul a:hover {
+  background-color: white !important;
+  color: #89abe3;
+}
+
+a.button-collapse {
+  color: black;
+  margin-left: 40px !important;
+  margin-top: 10px !important;
+}
+
+#sidenav-overlay {
+  opacity: 0 !important;
+  position: inherit !important;
+}
+
+canvas.particles-js-canvas-el {
+  height: 100%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 35% !important;
+  }
+}
+
+canvas.particles-js-canvas-el {
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Media queries for iPad and lower */
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  nav .brand-logo {
+    left: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav .brand-logo {
+    left: 20% !important;
+  }
+  h1 {
+    font-size: 2.92rem !important;
+  }
+  .row.coding-icon {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .col.m6.s12.right-align.social-media {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .col.m6.s12.copyright {
+    padding-top: 0px !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  a.button-collapse {
+    margin-left: 30px !important;
+  }
+}

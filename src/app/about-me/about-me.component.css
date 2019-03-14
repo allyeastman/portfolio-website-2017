@@ -1,0 +1,19 @@
+h2, h3 {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+img.responsive-img.profile-picture {
+    max-height: 200px;
+    margin-top: 20px;
+}
+
+img.responsive-img.portfolio-icons {
+    max-height: 100px;
+}
+
+p.portfolio-description {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}

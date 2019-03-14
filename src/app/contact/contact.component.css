@@ -1,0 +1,62 @@
+.footer-wrapper {
+    background-image: linear-gradient(-180deg, #89abe3, #00bdf3);
+    width: 100%;
+}
+
+h4#title {
+    color: white;
+    padding-top: 20px;
+}
+
+button.waves-effect.waves-light.btn.submit {
+    background-color: #89abe3;
+}
+
+button.waves-effect.waves-light.btn.submit:hover {
+    opacity: 0.7;
+}
+
+a.email-link, .contact-info {
+    color: white;
+}
+
+a.email-link:hover {
+    color: #f2f2f2;
+}
+
+.footer.row {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.social-media-icon {
+    width: 30px;
+}
+
+.error-message {
+    font-size: 13px;
+    color: red;
+}
+
+.col.m6.s12.copyright {
+    padding-top: 10px;
+}
+
+.col.m6.s12.right-align.social-media {
+    padding-right: 30px;
+}
+
+/* overriding materializecss default form */
+
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #00bdf3;
+    box-shadow: 0 1px 0 0 #00bdf3;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #00bdf3;
+}
