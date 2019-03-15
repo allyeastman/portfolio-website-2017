@@ -31,6 +31,7 @@ a.email-link:hover {
 
 .social-media-icon {
     width: 30px;
+    margin-right: 5px;
 }
 
 .error-message {
@@ -43,7 +44,7 @@ a.email-link:hover {
 }
 
 .col.m6.s12.right-align.social-media {
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 /* overriding materializecss default form */

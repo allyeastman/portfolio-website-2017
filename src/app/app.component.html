@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
   <nav>
-    <div class="nav-wrapper">         
+    <div class="nav-wrapper">
       <img src="../assets/img/FullLogo.png" class="brand-logo" />
-      <a href="#" materialize="sideNav" data-activates="mobile-demo" class="button-collapse">
+      <a href="#" materialize="sideNav" [materializeParams]="[{closeOnClick:true}]" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
       </a>
       <ul class="right hide-on-med-and-down">
