@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { MaterializeModule } from 'angular2-materialize';
 
@@ -32,6 +33,7 @@ import { FormService, NotificationService, ToastService} from './services';
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    ScrollToModule.forRoot(),
     RouterModule.forRoot(ROUTES, { useHash: false })
   ],
   providers: [

@@ -7,37 +7,37 @@
       </a>
       <ul class="right hide-on-med-and-down">
         <li>
-          <a class="nav-text" href="#about-me">About</a>
+          <a class="nav-text" [ngx-scroll-to]="'#about-me'">About</a>
         </li>
         <li>
-          <a class="nav-text" href="#portfolio">Portfolio</a>
+          <a class="nav-text" [ngx-scroll-to]="'#portfolio'">Portfolio</a>
         </li>
         <li>
-          <a class="nav-text" href="#blog">Blog</a>
+          <a class="nav-text" [ngx-scroll-to]="'#blog'">Blog</a>
         </li>
         <li>
-          <a class="nav-text" href="#contact">Contact</a>
+          <a class="nav-text" [ngx-scroll-to]="'#contact'">Contact</a>
         </li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li>
-          <a class="nav-text" closeOnClick href="#about-me">About</a>
+          <a class="nav-text" [ngx-scroll-to]="'#about-me'">About</a>
         </li>
         <li>
-          <a class="nav-text" href="#portfolio">Portfolio</a>
+          <a class="nav-text" [ngx-scroll-to]="'#portfolio'">Portfolio</a>
         </li>
         <li>
-          <a class="nav-text" href="#blog">Blog</a>
+          <a class="nav-text" [ngx-scroll-to]="'#blog'">Blog</a>
         </li>
         <li>
-          <a class="nav-text" href="#contact">Contact</a>
+          <a class="nav-text" [ngx-scroll-to]="'#contact'">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 </div>
 <div class="container">
-  <app-about-me id="about-me"></app-about-me>
+      <app-about-me id="about-me"></app-about-me>
 </div>
 <app-portfolio id="portfolio"></app-portfolio>
 <div class="container">
