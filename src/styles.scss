@@ -70,6 +70,14 @@ canvas.particles-js-canvas-el {
   pointer-events: none;
 }
 
+i.material-icons {
+  vertical-align: middle;
+}
+
+.view-text {
+  color: rgba(0, 0, 0, 0.87);
+}
+
 /* Media queries for iPad and lower */
 
 @media only screen and (max-width: 768px) and (min-width: 375px) {
